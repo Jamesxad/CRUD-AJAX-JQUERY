@@ -1,0 +1,249 @@
+.btn{
+    height: 30px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(156, 201, 252, 0.1),rgb(87, 129, 184.01));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    resize: none;
+    
+}
+main{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+
+
+}
+main h1{
+    font-size: 50px;
+}
+
+
+
+
+.container input::placeholder:hover{
+    color: rgba(14, 13, 13, 0.5);
+
+}
+
+.resetbtn{
+
+    margin-left: 50px;
+    font-size: 12px;
+
+
+}
+.resetbtn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    width: 50px;
+}
+.resetbtn button{
+    
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.resetbtn button:active{
+    transform: scale(90%);
+}
+
+.btnlog button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 0  20px 2px 0;
+    color: rgb(148, 144, 144);
+    background:transparent;
+    border: none;
+    margin-bottom: 10px;
+
+
+}
+.btnlog button:hover{
+    color: black;
+}
+.containform .btnlogsign{
+    
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.btnlogsign button{
+    width: 80px ;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    
+}
+.btnlogsign button:focus{
+    transform: scale(90%);
+    
+}
+
+
+
+.container input{
+    background-color: rgb(139, 118, 118,0.3);
+}
+header{
+    background-color: transparent;
+    height: 30px;
+    border: 1px solid rgb(146, 142, 142,0.5);
+
+}
+header .headh1{
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+}
+footer{
+    border: 1px solid rgb(146, 142, 142,0.5);
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    bottom:0;
+    height: 40px;
+    padding: 10px;
+}
+footer h2{
+    color: black;
+    font-size: 10px;
+}
+/*modal add record*/
+#modal-content h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+#modal-content{
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+}
+#modal-content input{
+    background: transparent;
+    width: 100%;
+    border-radius: none;
+    color: aliceblue;
+}
+#modal-footer .btn{
+    height: 40px;
+
+}
+.modal-body {
+    top: -10px;
+
+}
+.clearbtn button{
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    background: none;
+    color: rgb(241, 235, 235);
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.clearbtn button:hover{
+    color: blue;
+    font-weight: bold;
+}
+.modal-footer button:hover{
+    transform: scale(95%);
+}
+.form-group{
+    margin-bottom: 20px;
+}
+
+table tr th span{
+    text-align: center;
+
+}
+.addclient{
+    height:50px;
+    width: 100px;
+    margin-bottom:20px;
+}
+#btn-addclient{
+    font-size: 15px;
+    align-items: center;
+    height: 40px;
+}
+#btntable,#btn-update{
+    font-size: 25px;
+    width: 70px;
+    color: aliceblue;
+    background: transparent;
+    border: none;
+}
+
+.form-control:focus{
+   border:none;
+}
+.input-group span{
+    background-color:transparent;
+    border:none;
+    color: white;
+    font-size: 30px;
+}
+
+.container .totaluser{
+    font-size: 15px;
+    font-weight: bold;
+}
+#totalUser{
+    font-size: 20px;
+
+}
+.reghead{
+    margin-bottom: 10px;
+}
+
+.input-group label{
+    color: rgb(252, 252, 252,0.3);
+}
+
+.form-control success{
+    border-color: green;
+}
+
+.form-floating #passreveal{
+    position: absolute;
+    overflow: hidden;
+    top:25%;
+    right: 2%;
+    background: none;
+    color:rgb(115, 119, 115);
+    font-size: 20px;
+    border: none;
+
+    
+}
+.form-floating #passrevealEye{
+    position: absolute;
+    overflow: hidden;
+    top:25%;
+    right: 2%;
+    background: none;
+    color: rgb(219, 213, 213);
+    font-size: 20px;
+    border: none;
+
+    
+}
